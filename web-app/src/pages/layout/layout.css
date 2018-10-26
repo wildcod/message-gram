@@ -1,0 +1,46 @@
+.layout-header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: lightgreen;
+}
+
+.layout-header-child{
+    cursor: pointer;
+    display: flex;
+    flex : 1 1 0%;
+    padding: 10px 100px 10px 50px;
+    justify-content: space-between;
+}
+
+.layout-main{
+   height: 670px;
+}
+
+.layout-main-child-1{
+    border-style : solid;
+    border-width: 0 2px 2px 2px;
+    border-color: grey;
+    height: 670px;
+}
+
+.layout-main-child-2{
+    border-style : solid;
+    border-width: 0 2px 2px 0;
+    border-color: grey;
+    height: 670px;
+    overflow: scroll;
+}
+
+
+.layout-online-users{
+    display: flex;
+    padding: 0 0 0 10px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    cursor: pointer;
+    margin: 5px 0 0 0;
+    font-size: 25px;
+}
